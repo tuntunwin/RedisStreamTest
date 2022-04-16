@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RedisStreamTest": {
+      "commandName": "Project",
+      "commandLineArgs": "pubsub"
+    }
+  }
+}
