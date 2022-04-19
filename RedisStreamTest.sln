@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisStreamTest", "RedisStreamTest\RedisStreamTest.csproj", "{76EB7D54-DE37-49DB-A3C2-88A5C646E61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http2Test", "Http2Test\Http2Test.csproj", "{72CE5413-B312-4D63-9C93-6D3E905E4D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http2Test", "Http2Test\Http2Test.csproj", "{72CE5413-B312-4D63-9C93-6D3E905E4D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http2WebApp3", "Http2WebApp3\Http2WebApp3.csproj", "{C97D7D7B-13FA-47D9-88DD-6BA31546D275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http2WebApp3", "Http2WebApp3\Http2WebApp3.csproj", "{C97D7D7B-13FA-47D9-88DD-6BA31546D275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http2RedisAsyncTest", "Http2RedisAsyncTest\Http2RedisAsyncTest.csproj", "{B1FB4E6B-16D0-45D2-8EAF-0D851C0C5469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C97D7D7B-13FA-47D9-88DD-6BA31546D275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C97D7D7B-13FA-47D9-88DD-6BA31546D275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C97D7D7B-13FA-47D9-88DD-6BA31546D275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FB4E6B-16D0-45D2-8EAF-0D851C0C5469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FB4E6B-16D0-45D2-8EAF-0D851C0C5469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FB4E6B-16D0-45D2-8EAF-0D851C0C5469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FB4E6B-16D0-45D2-8EAF-0D851C0C5469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
